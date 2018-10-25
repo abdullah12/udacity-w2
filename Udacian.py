@@ -12,7 +12,10 @@ class Udacian:
    def print_udacian(self):
       print ( self.name , ' is enrolled in ', self.city, 'studying',  self.nanodegree, ' with Ms. ', self.enrollment, 'he/she is', self.status  )
 
+   def get_udacian(self):
+      return ( self.name + ' is enrolled in '+ self.city + ' studying ' +  self.nanodegree + ' with Ms. ' + self.enrollment + ' he/she is ' + self.status  )
 
-u = Udacian('ahmed','dammam','Elham','fullstack','ontrack')
+
+u = Udacian('ahmed','dammam','Elham','fullstack','ontrack.')
 
 u.print_udacian()
